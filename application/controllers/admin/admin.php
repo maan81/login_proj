@@ -128,8 +128,8 @@ class Admin extends CI_Controller {
 
 				$new_password = random_string();
 
-				$this->users_model->update(array(	'email' 	=> $email,
-												'password'	=> md5($new_password)
+				$this->users_model->update(array('email' 	=> $email,
+												 'password'	=> md5($new_password)
 										)
 				);
 

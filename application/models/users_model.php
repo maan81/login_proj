@@ -49,6 +49,7 @@ class Users_model extends CI_Model{
 	 * @param record array/object
 	 */
 	public function update($data){
+		$data = (object)$data;
 		$email = $data->email;
 		unset($data->email);
 	
