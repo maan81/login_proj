@@ -81,6 +81,10 @@
 		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 
 		<p>
+			<a href="<?=site_url('install')?>">Install Proj.</a>
+		</p>
+
+		<p>
 			<a href="<?=site_url('admin/login')?>">Admin Login</a>
 		</p>
 		
