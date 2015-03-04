@@ -14,7 +14,7 @@
     <?=form_open()?>
 
 	    <h2>
-			Database
+			Create New Database
 	    </h2>
 
 	    <p>
