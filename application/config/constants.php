@@ -37,5 +37,20 @@ define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 
+/*
+|--------------------------------------------------------------------------
+| Directory path
+|--------------------------------------------------------------------------
+|
+*/
+define('ADMINCSSPATH', 'public/admin/css/');
+define('ADMINJSPATH', 'public/admin/js/');
+define('ADMINIMGSPATH', 'public/admin/imgs/');
+
+define('IMGSPATH', 'public/imgs/');
+define('CSSPATH', 'public/css/');
+define('JSPATH', 'public/js/');
+
+
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

@@ -38,6 +38,13 @@
 |
 */
 
+$route['admin']            = 'admin/admin'; 
+$route['admin/login']      = 'admin/admin/login';
+$route['admin/dashboard']  = 'admin/admin/dashboard';
+$route['admin/reset']      = 'admin/admin/reset';
+$route['admin/register']   = 'admin/admin/register';
+
+
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
